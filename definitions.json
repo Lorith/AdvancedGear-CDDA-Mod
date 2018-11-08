@@ -1,0 +1,75 @@
+[
+  {
+    "type" : "recipe_category",
+    "id" : "CC_NANO",
+    "recipe_subcategories" : [
+      "CSC_ALL",
+      "CSC_NANO_AMMO",
+      "CSC_NANO_WIELD",
+      "CSC_NANO_WEAR",
+      "CSC_NANO_TOOLS",
+      "CSC_NANO_MATERIALS",
+      "CSC_NANO_NANITES",
+      "CSC_NANO_VEHICLE",
+      "CSC_NANO_OTHER"
+    ]
+  },{
+    "type" : "material",
+    "ident" : "nanite",
+    "name" : "Nanotech",
+    "density": 600,
+    "bash_resist" : 28,
+    "cut_resist" : 40,
+    "bash_dmg_verb" : "compressed",
+    "cut_dmg_verb" : "gouged",
+    "repaired_with": "3d_resin_metal",
+    "salvaged_into": "nanite_cluster",
+    "dmg_adj" : [
+        "80% integrity",
+        "60% integrity",
+        "40% integrity",
+        "20% integrity"
+    ],
+    "acid_resist" : 20,
+    "elec_resist" : 12,
+    "fire_resist" : 10,
+    "chip_resist" : 1000,
+    "burn_data": [
+      { "fuel": -50, "smoke": 0, "burn": 0 },
+      { "immune": true },
+      { "fuel": 0, "smoke": 0, "burn": 1, "chance": 5 }
+    ]
+  },{
+      "type" : "tool_quality",
+      "id" : "NANOTECH",
+      "name" : "Nanotech"
+  },{
+      "type" : "tool_quality",
+      "id" : "NANO_FAB",
+      "name" : "Nanite Fabrication"
+  },{
+      "type" : "tool_quality",
+      "id" : "NANO_PRO",
+      "name" : "Nanite Programming"
+  },{
+      "type" : "ammunition_type",
+      "id" : "3d_resin",
+      "name" : "Fabrication Feedstock",
+      "default" : "3d_resin"
+  },{
+    "type" : "ammunition_type",
+    "id" : "nanite",
+    "name" : "Nanites",
+    "default" : "nanite_cluster"
+  },{
+    "type" : "ammunition_type",
+    "id" : "nanite_ammo",
+    "name" : "nanotech ammo",
+    "default" : "nanite_dart"
+  },{
+    "type" : "ammunition_type",
+    "id" : "nanite_deathcloud_ammo",
+    "name" : "nanotech deathcloud",
+    "default" : "nanite_deathcloud"
+  }
+]
