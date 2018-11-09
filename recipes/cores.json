@@ -12,7 +12,11 @@
     "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "tools": [
       [
-        [ "control_laptop", 25 ]
+        [ "control_laptop", 25 ],
+        [ "nano_programmer_1", -1 ],
+        [ "nano_programmer_2", -1 ],
+        [ "nanofactory_3", -1 ],
+        [ "nanofactory_4", -1 ]
       ]
     ],
     "components": [
@@ -52,7 +56,11 @@
     "batch_time_factors": [95, 2],
     "tools": [
       [
-        [ "control_laptop", 25 ]
+        [ "control_laptop", 25 ],
+        [ "nano_programmer_1", -1 ],
+        [ "nano_programmer_2", -1 ],
+        [ "nanofactory_3", -1 ],
+        [ "nanofactory_4", -1 ]
       ]
     ],
     "components": [
@@ -73,7 +81,11 @@
     "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "tools": [
       [
-        [ "control_laptop", 25 ]
+        [ "control_laptop", 25 ],
+        [ "nano_programmer_1", -1 ],
+        [ "nano_programmer_2", -1 ],
+        [ "nanofactory_3", -1 ],
+        [ "nanofactory_4", -1 ]
       ]
     ],
     "components": [

@@ -112,11 +112,10 @@
     "difficulty": 0,
     "time": 10000,
     "reversible": false,
-    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_FAB","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
+    "tools" : [
+       [ ["nanofactory_1", -1] ]
     ],
     "components": [
       [
@@ -148,11 +147,10 @@
     "difficulty": 0,
     "time": 1000,
     "reversible": false,
-    "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_FAB","level":2,"amount":1},
-      {"id":"NANOTECH","level":2,"amount":1}
+    "tools" : [
+       [ ["nanofactory_2", -1] ]
     ],
     "components": [
       [
@@ -184,11 +182,45 @@
     "difficulty": 0,
     "time": 100,
     "reversible": false,
-    "book_learn": [ [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_FAB","level":3,"amount":1},
-      {"id":"NANOTECH","level":3,"amount":1}
+    "tools" : [
+       [ ["nanofactory_3", -1] ]
+    ],
+    "components": [
+      [
+        [ "3d_resin", 50]
+      ],
+      [
+        [ "3d_resin_metal", 50]
+      ],
+      [
+        [ "3d_resin_electronic", 50]
+      ],
+      [
+        [ "coal_lump", 5],
+        [ "charcoal", 5],
+        [ "2x4", 5]
+      ],
+      [
+        [ "nanite_power_cell", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nanite_cluster",
+    "id_suffix": "_nanoprint_4",
+    "byproducts": [ [ "nanite_cluster", 1 ] ],
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_NANITES",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 100,
+    "reversible": false,
+    "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "tools" : [
+       [ ["nanofactory_4", -1] ]
     ],
     "components": [
       [
