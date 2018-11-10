@@ -31,8 +31,8 @@
     "subcategory": "CSC_NANO_NANITES",
     "skill_used": "fabrication",
     "difficulty": 0,
-    "time": 60000,
-    "reversible": false,
+    "time": 6000,
+    "reversible": true,
     "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "tools" : [ [ ["nanofactory_exp", -1], ["nanofactory_1", -1], ["nanofactory_2", -1], ["nanofactory_3", -1], ["nanofactory_4", -1] ] ],
     "components": [

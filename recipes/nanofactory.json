@@ -327,6 +327,9 @@
     "reversible": false,
     "book_learn": [ [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANOTECH","level":3,"amount":1}
+    ],
     "components": [
       [
         [ "nanofactory_2", 1]
@@ -349,10 +352,8 @@
     "reversible": false,
     "book_learn": [ [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
-    "tools": [
-      [
-        [ "nanite_core_4", -1]
-      ]
+    "qualities": [
+      {"id":"NANOTECH","level":4,"amount":1}
     ],
     "components": [
       [

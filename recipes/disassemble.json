@@ -20,13 +20,6 @@
     ]
   },{
     "type": "uncraft",
-    "result": "nanite_guide",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "time": 10,
-    "components": [ [ [ "nanite_guide", 1 ] ]]
-  },{
-    "type": "uncraft",
     "result": "nanite_multitool_small",
     "skill_used": "fabrication",
     "difficulty": 0,
