@@ -314,16 +314,15 @@
     "width": 30
   },{
     "id": "nanotech_anima",
-    "copy-from": "engine_motor",
+    "copy-from": "engine_electric_large",
     "type": "vehicle_part",
     "name": "nanotech anima",
+    "proportional": { "energy_consumption": 0.25, "power": 3.0 },
     "weight" : 1600,
     "item": "xl_nanite_ai",
     "difficulty": 0,
     "durability": 5000,
     "description": "A mass of nanites programmed to locate mechanical power systems and interface with them to provide mechanical power.",
-    "power": 1000,
-    "epower": -2500,
     "noise_factor": 0.01,
     "damage_modifier": 80,
     "folded_volume": 25,
