@@ -53,9 +53,9 @@
     "recoil" : 0,
     "loudness": 0,
     "count" : 100,
-    "stack_size" : 1000,
+    "stack_size" : 100,
     "weight": 1,
-    "volume": 1,
+    "volume": "100ml",
     "effects" : ["NEVER_MISFIRES"],
     "flags": [ "TRADER_AVOID" ]
   },{
@@ -76,9 +76,9 @@
     "recoil" : 0,
     "loudness": 0,
     "count" : 100,
-    "stack_size" : 1000,
+    "stack_size" : 100,
     "weight": 1,
-    "volume": 1,
+    "volume": "100ml",
     "effects" : ["NOGIB", "NEVER_MISFIRES"],
     "flags": [ "TRADER_AVOID" ]
   }

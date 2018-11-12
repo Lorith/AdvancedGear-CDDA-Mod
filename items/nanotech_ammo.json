@@ -16,9 +16,9 @@
     "recoil" : 0,
     "loudness": 0,
     "count" : 1000,
-    "stack_size": 1000,
+    "stack_size": 200,
     "weight": 1,
-    "volume": 1,
+    "volume": "200ml",
     "effects" : [ "NOGIB", "NEVER_MISFIRES" ],
     "flags": [ "TRADER_AVOID" ]
   },{
@@ -38,10 +38,10 @@
     "recoil" : 10,
     "loudness": 2,
     "count" : 250,
-    "stack_size": 250,
+    "stack_size": 50,
     "//" : "Intended to be used in small bursts",
     "weight": 4,
-    "volume": 1,
+    "volume": "200ml",
     "effects" : [ "NEVER_MISFIRES" ],
     "flags": [ "TRADER_AVOID" ]
   },{
