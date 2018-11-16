@@ -23,8 +23,74 @@
     "encumbrance" : 0,
     "bashing" : 0,
     "flags" : ["TRADER_AVOID" ],
-    "coverage" : 0,
-    "material_thickness" : 0
+    "coverage" : 30,
+    "material_thickness" : 1
+  },{
+    "type" : "ARMOR",
+    "id" : "nano_holster",
+    "name" : "nanotech holster",
+    "weight" : 1444,
+    "color": "light_gray",
+    "covers" : ["LEG_EITHER"],
+    "to_hit" : 0,
+    "storage" : 0,
+    "symbol" : "[",
+    "description" : "A small blob of nanites with an AI, it actively branches out pseudopods to grasp guns held nearby it, and put them into the user's hands automatically as needed.",
+    "price" : 500000,
+    "material": "nanite",
+    "volume" : 4,
+    "cutting" : 0,
+    "warmth" : 0,
+    "phase" : "solid",
+    "environmental_protection" : 0,
+    "encumbrance" : 0,
+    "bashing" : 0,
+    "coverage" : 10,
+    "material_thickness" : 1,
+    "flags" : [ "BELTED", "OVERSIZE", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID" ],
+    "use_action" : {
+      "type": "holster",
+      "holster_prompt": "Store weapon",
+      "holster_msg": "You store your %s",
+      "max_volume": 18,
+      "min_volume": 0,
+      "max_weight": 3000,
+      "draw_cost": 0,
+      "skills": ["pistol", "smg", "shotgun", "rifle", "launcher"]
+    }
+  },{
+    "type" : "ARMOR",
+    "id" : "nano_sheath",
+    "name" : "nanotech sheath",
+    "copy-from" : "nano_holster",
+    "description" : "A small blob of nanites with an AI, it actively branches out pseudopods to grasp blades held nearby it, and put them into the user's hands automatically as needed.",
+    "use_action" : {
+      "type": "holster",
+      "holster_prompt": "Store weapon",
+      "holster_msg": "You store your %s",
+      "max_volume": 18,
+      "min_volume": 0,
+      "max_weight": 3000,
+      "draw_cost": 0,
+      "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_SPEAR" ]
+    }
+  },{
+    "type" : "ARMOR",
+    "id" : "nano_mag_holder",
+    "name" : "nanotech magazine holder",
+    "copy-from" : "nano_holster",
+    "description" : "A small blob of nanites with an AI, it stores magazines and assists in loading them as needed.",
+    "covers" : ["ARM_EITHER"],
+    "use_action": {
+      "type": "holster",
+      "holster_prompt": "Store ammo",
+      "holster_msg": "You store your %s.",
+      "multi": 4,
+      "max_volume": 6,
+      "min_volume": 0,
+      "draw_cost": 0,
+      "flags": [ "MAG_COMPACT", "MAG_BULKY" ]
+    }
   },{
     "type" : "ARMOR",
     "id" : "nanosuit",
@@ -50,7 +116,7 @@
     "encumbrance" : 0,
     "bashing" : 0,
     "qualities": [ [ "GLARE", 2 ] ],
-    "flags" : ["ELECTRIC_IMMUNE", "RAD_PROOF", "WATERPROOF", "SUN_GLASSES", "WATER_FRIENDLY", "SKINTIGHT", "HOOD", "WATCH", "ALARMCLOCK", "RAINPROOF", "REBREATHER", "POCKETS", "SWIM_GOGGLES", "STURDY","OVERSIZE", "GAS_PROOF", "ALLOWS_NATURAL_ATTACKS", "SUPER_FANCY", "TRADER_AVOID"],
+    "flags" : [ "ALARMCLOCK", "ALLOWS_NATURAL_ATTACKS", "BAROMETER", "CLIMATE_CONTROL", "ELECTRIC_IMMUNE", "FIX_FARSIGHT", "FIX_NEARSIGHT", "GAS_PROOF", "HOOD", "HYGROMETER", "OVERSIZE", "POCKETS", "RAD_PROOF", "RAINPROOF", "REBREATHER", "SKINTIGHT", "STURDY", "SUN_GLASSES", "SUPER_FANCY", "SWIM_GOGGLES", "THERMOMETER", "TRADER_AVOID", "VARSIZE", "WATCH", "WATER_FRIENDLY", "WATERPROOF" ],
     "coverage" : 100,
     "material_thickness" : 3,
     "use_action": [
@@ -155,7 +221,7 @@
     "material": "nanite",
     "armor_data": {
       "covers": [ "TORSO" ],
-      "coverage": 5,
+      "coverage": 10,
       "encumbrance": 4,
       "material_thickness": 1
     },
@@ -165,176 +231,136 @@
     "preserves": true,
     "watertight": true
   },{
-    "id": "nano_shredder",
+    "abstract": "nanogun",
     "type": "GUN",
+    "name": "nanotech gun",
+    "description": "You shouldn't see this.",
     "symbol": "(",
     "color": "light_gray",
-    "name": "nanotech shredder",
-    "description": "Nanotech shotgun, blasts out large clouds of different configurations of monomolecular ammo based on loaded ammo core.",
-    "looks_like": "rm614_lmg",
-    "weight": 1844,
     "price": 500000,
     "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
-    "skill": "shotgun",
     "ammo": "nanite_ammo",
-    "volume": 8,
+    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
+    "volume": 1,
     "bashing": 0,
     "cutting": 0,
     "to_hit": 0,
+    "durability": 10,
+    "magazine_well" : 1,
+    "reload" : 30,
+    "magazines" : [
+      [ "nanite_ammo", [ "nano_dart_mag", "nano_blade_mag", "nano_wire_mag" ] ]
+    ],
+    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+  },{
+    "id": "nano_shredder",
+    "type": "GUN",
+    "name": "nanotech shredder",
+    "copy-from" : "nanogun",
+    "description": "Nanotech shotgun, blasts out large clouds of different configurations of monomolecular ammo based on loaded ammo core.",
+    "looks_like": "rm614_lmg",
+    "weight": 1844,
+    "skill": "shotgun",
+    "ammo": "nanite_ammo",
+    "volume": 8,
     "ranged_damage": 9,
     "range": 2,
     "dispersion": 400,
     "sight_dispersion": 80,
     "aim_speed" : 4,
     "recoil": 90,
-    "durability": 10,
-    "magazine_well" : 1,
-    "magazines" : [
-      [ "nanite_ammo", [ "nano_dart_mag", "nano_blade_mag", "nano_wire_mag" ] ]
-    ],
     "modes": [
       [ "DEFAULT", "blast", 5, "SIMULTANEOUS" ],
       [ "BURST", "auto", 20 ]
-    ],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    ]
   },{
     "id": "nano_pistol",
     "type": "GUN",
-    "symbol": "(",
-    "color": "light_gray",
     "name": "nanotech pistol",
+    "copy-from" : "nanogun",
     "description": "Nanotech pistol, fires bursts of different configurations of monomolecular ammo based on loaded ammo core.",
     "looks_like": "needlepistol",
     "weight": 1096,
     "price": 250000,
-    "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
     "skill": "pistol",
-    "ammo": "nanite_ammo",
     "volume": 4,
-    "bashing": 0,
-    "cutting": 0,
-    "to_hit": 0,
     "ranged_damage": 1,
     "range": 4,
     "dispersion": 60,
     "sight_dispersion": 20,
     "aim_speed" : 6,
     "recoil": 10,
-    "durability": 10,
-    "magazine_well" : 1,
-    "magazines" : [
-      [ "nanite_ammo", [ "nano_dart_mag", "nano_blade_mag", "nano_wire_mag" ] ]
-    ],
     "modes": [
       [ "DEFAULT", "semi-auto", 1 ],
       [ "BURST", "burst", 5, "SIMULTANEOUS" ],
       [ "AUTO", "auto", 15 ]
-    ],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    ]
   },{
     "id": "nano_rifle",
     "type": "GUN",
-    "symbol": "(",
-    "color": "light_gray",
     "name": "nanotech rifle",
+    "copy-from" : "nanogun",
     "description": "Nanotech rifle, fires large bursts of different configurations of monomolecular ammo based on loaded ammo core.",
     "looks_like": "rm11b_sniper_rifle",
     "weight": 1844,
-    "price": 500000,
-    "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
     "skill": "rifle",
-    "ammo": "nanite_ammo",
     "volume": 8,
-    "bashing": 0,
-    "cutting": 0,
-    "to_hit": 0,
     "ranged_damage": 1,
     "range": 12,
     "dispersion": 0,
     "sight_dispersion": 0,
     "aim_speed" : 20,
     "recoil": 10,
-    "durability": 10,
-    "magazine_well" : 1,
-    "magazines" : [
-      [ "nanite_ammo", [ "nano_dart_mag", "nano_blade_mag", "nano_wire_mag" ] ]
-    ],
     "modes": [
       [ "DEFAULT", "semi-auto", 1 ],
       [ "BURST", "burst", 10, "SIMULTANEOUS" ],
       [ "AUTO", "auto", 25 ]
-    ],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    ]
   },{
     "id": "nano_smg",
     "type": "GUN",
-    "symbol": "(",
-    "color": "light_gray",
     "name": "nanotech smg",
+    "copy-from" : "nanogun",
     "description": "Nanotech smg, fires a storm of different configurations of monomolecular ammo based on loaded ammo core.",
     "looks_like": "rm360_carbine",
     "weight": 1992,
     "price": 375000,
-    "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
     "skill": "smg",
-    "ammo": "nanite_ammo",
     "volume": 6,
-    "bashing": 0,
-    "cutting": 0,
-    "to_hit": 0,
     "ranged_damage": 4,
     "range": 2,
     "dispersion": 200,
     "sight_dispersion": 20,
     "aim_speed" : 4,
     "recoil": 40,
-    "durability": 10,
-    "magazine_well" : 1,
-    "magazines" : [
-      [ "nanite_ammo", [ "nano_dart_mag", "nano_blade_mag", "nano_wire_mag" ] ]
-    ],
     "modes": [
       [ "DEFAULT", "burst", 5, "SIMULTANEOUS" ],
       [ "BURST", "auto", 25 ],
       [ "FULL", "maximum", 50 ]
-    ],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    ]
   },{
     "id": "nano_launcher",
     "type": "GUN",
-    "symbol": "(",
-    "color": "light_gray",
     "name": "nanotech launcher",
+    "copy-from" : "nanogun",
     "description": "Nanotech launcher, fires huge masses of monomolecular wire that shreds anything that isn't heavily protected.",
     "looks_like": "mininuke_launcher",
     "weight": 2192,
-    "price": 500000,
-    "material": "nanite",
-    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN" ],
     "skill": "launcher",
     "ammo": "nanite_deathcloud_ammo",
     "volume": 8,
-    "bashing": 0,
-    "cutting": 0,
-    "to_hit": 0,
     "ranged_damage": 55,
     "range": 15,
     "dispersion": 800,
     "sight_dispersion": 50,
     "aim_speed" : 60,
     "recoil": 550,
-    "durability": 10,
     "magazines" : [
       [ "nanite_deathcloud_ammo", [ "nano_deathcloud_mag" ] ]
     ],
     "modes": [
       [ "DEFAULT", "semi-auto", 1 ],
       [ "BLAST", "blast", 5, "SIMULTANEOUS" ]
-    ],
-    "valid_mod_locations": [[ "accessories", 2 ],[ "barrel", 1 ],[ "grip", 1 ],[ "mechanism", 4 ],[ "muzzle", 1 ],[ "rail", 1 ],[ "sights", 1 ],[ "stock", 1 ],[ "underbarrel", 1 ]]
+    ]
   }
 ]

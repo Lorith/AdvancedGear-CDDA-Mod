@@ -27,6 +27,84 @@
     ]
   },{
     "type" : "recipe",
+    "result": "nano_holster",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_WEAR",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nanite_cluster", 400]
+      ],
+      [
+        [ "ai_core_blank", 1]
+      ],
+      [
+        [ "nanite_power_cell", 6]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nano_sheath",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_WEAR",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nanite_cluster", 400]
+      ],
+      [
+        [ "ai_core_blank", 1]
+      ],
+      [
+        [ "nanite_power_cell", 6]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nano_mag_holder",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_WEAR",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_1", 1 ],[ "nanite_core_2", 1 ],[ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":1,"amount":1},
+      {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nanite_cluster", 400]
+      ],
+      [
+        [ "ai_core_blank", 1]
+      ],
+      [
+        [ "nanite_power_cell", 6]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "nanosuit",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_WEAR",

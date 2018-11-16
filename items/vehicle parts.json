@@ -73,7 +73,7 @@
         {"item": "xl_nanite_cluster", "min": 1, "max": 1}
     ],
     "damage_reduction" : {
-      "all" : 15
+      "all" : 80
     }
   },{
     "type" : "vehicle_part",
@@ -96,7 +96,7 @@
         {"item": "xl_nanite_ai", "min": 1, "max": 1}
     ],
     "damage_reduction" : {
-      "all" : 5
+      "all" : 25
     }
   },{
     "type" : "vehicle_part",
@@ -386,7 +386,10 @@
     "item": "xl_nanite_cluster",
     "location": "on_seat",
     "flags": [ "SEATBELT", "TOOL_NONE", "FOLDABLE" ],
-    "breaks_into": [ { "item": "xl_nanite_cluster", "count": [ 0, 1 ] } ]
+    "breaks_into": [ { "item": "xl_nanite_cluster", "count": [ 0, 1 ] } ],
+    "damage_reduction" : {
+      "all" : 10
+    }
   },{
     "type": "vehicle_part",
     "id": "nanocam",
@@ -406,7 +409,10 @@
     "flags": [ "VISION", "CAMERA", "TOOL_NONE", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
       { "item": "xl_nanite_cluster", "count": [ 1, 1 ] }
-    ]
+    ],
+    "damage_reduction" : {
+      "all" : 10
+    }
   },{
     "type":"GENERIC",
     "id" : "nano_frame",
@@ -438,6 +444,9 @@
     "breaks_into" : [
       {"item": "nano_frame", "min": 0, "max": 1}
     ],
+    "damage_reduction" : {
+      "all" : 15
+    },
     "requirements": {
       "install": { "skills": [ [ "mechanics", 1 ] ], "time": 120000, "using": [ [ "welding_standard", 10 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ], "using": "vehicle_weld_removal" },
@@ -518,7 +527,10 @@
     "breaks_into" : [
       {"item": "xl_nanite_cluster", "min": 1, "max": 1}
     ],
-    "flags": [ "OPAQUE", "OBSTACLE", "OPENABLE", "BOARDABLE", "TOOL_NONE" ]
+    "flags": [ "OPAQUE", "OBSTACLE", "OPENABLE", "BOARDABLE", "TOOL_NONE" ],
+    "damage_reduction" : {
+      "all" : 20
+    }
   },{
     "abstract": "nanohalfboard",
     "copy-from": "nanoboard",
