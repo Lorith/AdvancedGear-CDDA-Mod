@@ -523,6 +523,7 @@
     "color": "dark_gray",
     "difficulty": 0,
     "durability": 5000,
+    "folded_volume": 25,
     "description": "A strong metal wall.  Keeps zombies outside the vehicle and prevents people from seeing through it.",
     "breaks_into" : [
       {"item": "xl_nanite_cluster", "min": 1, "max": 1}

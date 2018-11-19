@@ -54,7 +54,7 @@
       "holster_msg": "You store your %s",
       "max_volume": 18,
       "min_volume": 0,
-      "max_weight": 3000,
+      "max_weight": 5000,
       "draw_cost": 0,
       "skills": ["pistol", "smg", "shotgun", "rifle", "launcher"]
     }
@@ -70,7 +70,7 @@
       "holster_msg": "You store your %s",
       "max_volume": 18,
       "min_volume": 0,
-      "max_weight": 3000,
+      "max_weight": 5000,
       "draw_cost": 0,
       "flags": [ "SHEATH_KNIFE", "SHEATH_SWORD", "SHEATH_SPEAR" ]
     }
