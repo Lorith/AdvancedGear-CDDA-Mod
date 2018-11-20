@@ -225,7 +225,7 @@
       "encumbrance": 4,
       "material_thickness": 1
     },
-    "contains": 1000,
+    "contains": 10000,
     "flags": ["RIGID", "SEALS", "WATERTIGHT", "NONCONDUCTIVE", "TRADER_AVOID" ],
     "seals": true,
     "preserves": true,
