@@ -1,6 +1,25 @@
 [
   {
     "type" : "recipe",
+    "result": "programming_laptop",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "computer", 2 ],
+    "difficulty": 2,
+    "time": 25000,
+    "book_learn": [[ "mag_computer", 2 ] , [ "manual_computers", 2 ]],
+    "using": [ [ "soldering_standard", 14 ] ],
+    "qualities" : [ {"id":"SCREW","level":1} ],
+    "components": [
+      [ [ "laptop", 1 ] ],
+      [ [ "receiver", 1 ] ],
+      [ [ "transponder", 1 ] ],
+      [ [ "power_supply", 1 ] ],
+      [ [ "e_scrap", 2 ] ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "3d_resin",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_OTHER",
@@ -29,7 +48,8 @@
       [
         [ "scrap", 20 ],
         [ "steel_chunk", 4],
-        [ "steel_lump", 1]
+        [ "steel_lump", 1],
+        [ "sheet_metal_small", 4]
       ]
     ]
   },{
@@ -45,7 +65,8 @@
       [
         [ "cable", 500 ],
         [ "scrap_copper", 5],
-        [ "copper", 500]
+        [ "copper", 500],
+        [ "cu_pipe", 3]
       ]
     ]
   },{
@@ -88,7 +109,8 @@
       [
         [ "scrap", 20 ],
         [ "steel_chunk", 4],
-        [ "steel_lump", 1]
+        [ "steel_lump", 1],
+        [ "sheet_metal_small", 4]
       ]
     ]
   },{
@@ -109,7 +131,8 @@
       [
         [ "cable", 500 ],
         [ "scrap_copper", 5],
-        [ "copper", 500]
+        [ "copper", 500],
+        [ "cu_pipe", 3]
       ]
     ]
   },{

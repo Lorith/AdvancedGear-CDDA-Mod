@@ -27,7 +27,7 @@
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": 10000,
-    "reversible": false,
+    "reversible": true,
     "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "flags": [ "BLIND_EASY" ],
     "qualities": [
