@@ -3,7 +3,8 @@
     "abstract": "nanovp",
     "type": "vehicle_part",
     "name": "nanotech vehicle part",
-    "color": "dark_gray",
+    "color": "light_gray",
+    "broken_color": "dark_gray",
     "difficulty": 0,
     "durability": 1500,
     "description": "Seeing this is a bug - nanovp",
@@ -18,9 +19,175 @@
   },{
     "abstract": "nanovp_fold",
     "type": "vehicle_part",
-    "name": "nanotech vehicle part",
+    "name": "nanotech vehicle part foldable",
     "copy-from": "nanovp",
     "folded_volume": 8
+  },{
+    "abstract": "nanovp_turret",
+    "type": "vehicle_part",
+    "name": "nanotech vehicle turret",
+    "copy-from": "nanovp_fold",
+    "symbol": "t",
+    "location": "on_roof",
+    "default_ammo": "metal_nanopowder",
+    "flags": [ "TURRET", "USE_TANKS" ]
+  },{
+    "id": "nano_turret_shredder",
+    "copy-from": "nanovp_turret",
+    "type": "vehicle_part",
+    "name": "nanotech shredder turret",
+    "item": "nano_turret_shredder"
+  },{
+    "id": "nano_turret_pistol",
+    "copy-from": "nanovp_turret",
+    "type": "vehicle_part",
+    "name": "nanotech pistol turret",
+    "item": "nano_turret_pistol"
+  },{
+    "id": "nano_turret_rifle",
+    "copy-from": "nanovp_turret",
+    "type": "vehicle_part",
+    "name": "nanotech rifle turret",
+    "item": "nano_turret_rifle"
+  },{
+    "id": "nano_turret_smg",
+    "copy-from": "nanovp_turret",
+    "type": "vehicle_part",
+    "name": "nanotech smg turret",
+    "item": "nano_turret_smg"
+  },{
+    "abstract": "nanoturretgun",
+    "type": "GUN",
+    "name": "nanotech turret gun",
+    "description": "You shouldn't see this.",
+    "symbol": "(",
+    "color": "light_gray",
+    "price": 500000,
+    "material": "nanite",
+    "ammo": "metal_nanopowder",
+    "flags": ["NEVER_JAMS", "UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID", "WATERPROOF_GUN", "MOUNTED_GUN" ],
+    "volume": 1,
+    "bashing": 0,
+    "cutting": 0,
+    "to_hit": 0,
+    "durability": 10,
+    "clip_size": 100,
+    "reload": 0
+  },{
+    "id": "nano_turret_shredder",
+    "type": "GUN",
+    "name": "nanotech shredder turret",
+    "copy-from" : "nanoturretgun",
+    "description": "Nanotech shotgun turret, blasts out large clouds of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
+    "looks_like": "rm614_lmg",
+    "weight": 4106,
+    "skill": "shotgun",
+    "volume": 8,
+    "ranged_damage": 18,
+    "range": 4,
+    "dispersion": 400,
+    "sight_dispersion": 80,
+    "aim_speed" : 4,
+    "recoil": 900,
+    "modes": [
+      [ "DEFAULT", "blast", 5, "SIMULTANEOUS" ],
+      [ "BURST", "auto", 20 ]
+    ]
+  },{
+    "id": "nano_turret_pistol",
+    "type": "GUN",
+    "name": "nanotech pistol turret",
+    "copy-from" : "nanoturretgun",
+    "description": "Nanotech pistol turret, fires bursts of of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
+    "looks_like": "needlepistol",
+    "weight": 3358,
+    "price": 250000,
+    "skill": "pistol",
+    "volume": 4,
+    "ranged_damage": 2,
+    "range": 8,
+    "dispersion": 60,
+    "sight_dispersion": 20,
+    "aim_speed" : 6,
+    "recoil": 100,
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "BURST", "burst", 5, "SIMULTANEOUS" ],
+      [ "AUTO", "auto", 15 ]
+    ]
+  },{
+    "id": "nano_turret_rifle",
+    "type": "GUN",
+    "name": "nanotech rifle turret",
+    "copy-from" : "nanoturretgun",
+    "description": "Nanotech rifle turret, fires large bursts of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
+    "looks_like": "rm11b_sniper_rifle",
+    "weight": 4106,
+    "skill": "rifle",
+    "volume": 8,
+    "ranged_damage": 2,
+    "range": 24,
+    "dispersion": 0,
+    "sight_dispersion": 0,
+    "aim_speed" : 20,
+    "recoil": 100,
+    "modes": [
+      [ "DEFAULT", "semi-auto", 1 ],
+      [ "BURST", "burst", 10, "SIMULTANEOUS" ],
+      [ "AUTO", "auto", 25 ]
+    ]
+  },{
+    "id": "nano_turret_smg",
+    "type": "GUN",
+    "name": "nanotech smg turret",
+    "copy-from" : "nanoturretgun",
+    "description": "Nanotech smg turret, fires a storm of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed.",
+    "looks_like": "rm360_carbine",
+    "weight": 4254,
+    "price": 375000,
+    "skill": "smg",
+    "volume": 6,
+    "ranged_damage": 8,
+    "range": 4,
+    "dispersion": 200,
+    "sight_dispersion": 20,
+    "aim_speed" : 4,
+    "recoil": 400,
+    "modes": [
+      [ "DEFAULT", "burst", 5, "SIMULTANEOUS" ],
+      [ "BURST", "auto", 25 ],
+      [ "FULL", "maximum", 50 ]
+    ]
+  },{
+    "type": "vehicle_part",
+    "id": "nano_aisle",
+    "name": "nanotech aisle",
+    "looks_like": "aisle_horizontal",
+    "copy-from": "nanovp_fold",
+    "symbol": "H",
+    "broken_symbol": "#",
+    "description": "A nanotech aisle, capable of assisting with lifting nearby objects.",
+    "item": "xl_nanite_cluster",
+    "location": "center",
+    "flags": [ "AISLE", "BOARDABLE" ],
+    "qualities": [ [ "LIFT", 40 ] ],
+    "breaks_into" : [
+      {"item": "xl_nanite_cluster", "min": 1, "max": 1}
+    ]
+  },{
+    "type": "vehicle_part",
+    "id": "nano_roof",
+    "name": "nanotech roof",
+    "copy-from": "nanovp_fold",
+    "symbol": "#",
+    "broken_symbol": "#",
+    "description": "A nanotech roof that is capable of interfacing with a turret.",
+    "item": "xl_nanite_cluster",
+    "location": "roof",
+    "flags": [ "ROOF", "TURRET_MOUNT" ],
+    "breaks_into" : [
+      {"item": "xl_nanite_cluster", "min": 1, "max": 1}
+    ]
   },{
     "type":"GENERIC",
     "id" : "xl_nanite_cluster",
@@ -123,6 +290,7 @@
     "broken_symbol" : "#",
     "broken_color" : "red",
     "damage_modifier" : 80,
+    "folded_volume": 16,
     "description" : "Collection of nanites formed into a hollow sphere with a complex mechanism to compress and decompress liquid to extreme levels.",
     "size" : 2500000,
     "item" : "nano_container",
@@ -142,11 +310,47 @@
     "broken_color" : "dark_gray",
     "description" : "Collection of nanites formed into a hollow sphere with a complex mechanism to compress and decompress liquid to extreme levels.",
     "size" : 5000,
-    "item" : "xl_nanite_ai",
+    "item" : "nano_storage",
     "location" : "center",
     "flags" : ["BOARDABLE", "CARGO", "FOLDABLE"],
     "breaks_into" : [
-        {"item": "xl_nanite_ai", "count": [1, 1]}
+        {"item": "nano_storage", "count": [1, 1]}
+    ]
+  },{
+    "type" : "vehicle_part",
+    "id" : "nano_fridge",
+    "name" : "nanotech fridge",
+    "looks_like": "minifridge",
+    "copy-from": "nanovp_fold",
+    "symbol" : "=",
+    "color" : "light_gray",
+    "broken_symbol" : "#",
+    "broken_color" : "dark_gray",
+    "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a cool temperature, leading to them being immobile and blocking passage.",
+    "size" : 2000,
+    "item" : "xl_nanite_cluster",
+    "location" : "center",
+    "flags" : ["OBSTACLE", "CARGO", "FRIDGE", "COVERED", "FOLDABLE"],
+    "breaks_into" : [
+        {"item": "xl_nanite_cluster", "count": [1, 1]}
+    ]
+  },{
+    "type" : "vehicle_part",
+    "id" : "nano_freezer",
+    "name" : "nanotech freezer",
+    "looks_like": "minifreezer",
+    "copy-from": "nanovp_fold",
+    "symbol" : "=",
+    "color" : "light_gray",
+    "broken_symbol" : "#",
+    "broken_color" : "dark_gray",
+    "description" : "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage.",
+    "size" : 2000,
+    "item" : "xl_nanite_cluster",
+    "location" : "center",
+    "flags" : ["OBSTACLE", "CARGO", "FREEZER", "COVERED", "FOLDABLE"],
+    "breaks_into" : [
+        {"item": "xl_nanite_cluster", "count": [1, 1]}
     ]
   },{
     "type" : "vehicle_part",
@@ -356,10 +560,11 @@
     "durability": 15000,
     "description": "A mass of nanites optimized for travel across any land-based surface while lifting a larger object.",
     "damage_modifier": 120,
+    "qualities": [ [ "SELF_JACK", 40 ] ],
     "breaks_into": [
       { "item": "nano_crawler", "count": [ 1, 1 ] }
     ],
-    "flags": [ "WHEEL", "MULTISQUARE", "TRACKED", "NO_JACK", "VARIABLE_SIZE", "FOLDABLE", "STABLE" ]
+    "flags": [ "WHEEL", "MULTISQUARE", "TRACKED", "NO_JACK", "VARIABLE_SIZE", "FOLDABLE", "STABLE", "SELF_JACK" ]
   },{
     "type": "vehicle_part",
     "id": "nanotech_control",
@@ -374,7 +579,7 @@
     "epower": -500,
     "difficulty": 3,
     "location": "center",
-    "flags": [ "CONTROLS", "FOLDABLE", "SEAT", "BOARDABLE", "BELTABLE", "CTRL_ELECTRONIC", "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER" ],
+    "flags": [ "CONTROLS", "FOLDABLE", "BED", "SEAT", "BOARDABLE", "BELTABLE", "CTRL_ELECTRONIC", "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
       { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
     ]

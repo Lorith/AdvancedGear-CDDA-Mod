@@ -1,5 +1,28 @@
 [
   {
+    "id": "metal_nanopowder",
+    "type": "AMMO",
+    "symbol": ";",
+    "color": "green",
+    "name": "metal nanopowder",
+    "description": "Incredibly finely powdered metal, it is useless for anything except use in specialized nanotech turrets.",
+    "price": 0,
+    "material": "steel",
+    "ammo_type" : "metal_nanopowder",
+    "damage" : 5,
+    "pierce" : 200,
+    "range" : 12,
+    "dispersion" : 0,
+    "recoil" : 0,
+    "loudness": 0,
+    "count" : 100,
+    "stack_size": 10,
+    "phase": "liquid",
+    "weight": 20,
+    "volume": 1,
+    "effects" : [ "NOGIB", "NEVER_MISFIRES", "SHOT" ],
+    "flags": [ "TRADER_AVOID" ]
+  },{
     "id": "nanite_dart",
     "type": "AMMO",
     "symbol": ";",

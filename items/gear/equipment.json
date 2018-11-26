@@ -55,7 +55,7 @@
     "price" : 50000,
     "material": "nanite",
     "flags": [ "STAB", "UNARMED_WEAPON", "TRADER_AVOID", "SHEATH_KNIFE" ],
-    "qualities": [ [ "CUT", 3 ], [ "BUTCHER", 50 ] ]
+    "qualities": [ [ "CUT", 4 ], [ "CUT_FINE", 7 ], [ "BUTCHER", 80 ] ]
   },{
     "id": "nano_spear",
     "type": "GENERIC",

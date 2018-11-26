@@ -204,7 +204,7 @@
       "removal": { "skills": [ [ "computer", 0 ] ], "qualities": [ { "id": "NANO_PRO", "level": 1 } ] },
       "repair": { "skills": [ [ "computer", 0 ] ], "time": 6000, "qualities": [ { "id": "NANO_PRO", "level": 1 } ] }
     },
-    "flags": [ "OPAQUE", "OBSTACLE", "OPENABLE", "BOARDABLE", "TOOL_NONE" ],
+    "flags": [ "OPAQUE", "OBSTACLE", "DOOR", "OPENABLE", "BOARDABLE", "TOOL_NONE" ],
     "damage_reduction" : {
       "all" : 20
     }

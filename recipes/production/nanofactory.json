@@ -110,7 +110,31 @@
         [ "scrap", 20 ],
         [ "steel_chunk", 4],
         [ "steel_lump", 1],
-        [ "sheet_metal_small", 4]
+        [ "sheet_metal_small", 4],
+        [ "metal_nanopowder", 50]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "metal_nanopowder",
+    "id_suffix": "_nano_1",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_AMMO",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "book_learn": [ [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_FAB","level":1,"amount":1}
+    ],
+    "components": [
+      [
+        [ "scrap", 40 ],
+        [ "steel_chunk", 8],
+        [ "steel_lump", 2],
+        [ "sheet_metal_small", 8],
+        [ "3d_resin_metal", 200]
       ]
     ]
   },{
@@ -143,6 +167,7 @@
     "skill_used": "fabrication",
     "difficulty": 3,
     "time": 6000,
+    "flags": [ "BLIND_EASY" ],
     "book_learn": [ [ "ai_core", 1 ], [ "nanite_core_1", 1 ], [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
     "tools": [
       [
@@ -158,7 +183,8 @@
         [ "plut_cell", 5 ]
       ],
       [
-        [ "canister_empty", 1]
+        [ "canister_empty", 1],
+        [ "3d_resin_metal", 16]
       ],
       [
         [ "3d_resin_electronic", 60]

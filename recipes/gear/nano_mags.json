@@ -22,9 +22,11 @@
     "components": [
       [
         [ "3d_resin_metal", 200],
+        [ "metal_nanopowder", 100],
         [ "scrap", 40 ],
         [ "steel_chunk", 8],
-        [ "steel_lump", 2]
+        [ "steel_lump", 2],
+        [ "sheet_metal_small", 8]
       ],
       [
         [ "nano_mag_empty", 1]
@@ -53,9 +55,11 @@
     "components": [
       [
         [ "3d_resin_metal", 200],
+        [ "metal_nanopowder", 100],
         [ "scrap", 40 ],
         [ "steel_chunk", 8],
-        [ "steel_lump", 2]
+        [ "steel_lump", 2],
+        [ "sheet_metal_small", 8]
       ],
       [
         [ "nano_mag_empty", 1]
@@ -84,9 +88,11 @@
     "components": [
       [
         [ "3d_resin_metal", 200],
+        [ "metal_nanopowder", 100],
         [ "scrap", 40 ],
         [ "steel_chunk", 8],
-        [ "steel_lump", 2]
+        [ "steel_lump", 2],
+        [ "sheet_metal_small", 8]
       ],
       [
         [ "nano_mag_empty", 1]
@@ -121,9 +127,11 @@
     "components": [
       [
         [ "3d_resin_metal", 200],
+        [ "metal_nanopowder", 100],
         [ "scrap", 40 ],
         [ "steel_chunk", 8],
-        [ "steel_lump", 2]
+        [ "steel_lump", 2],
+        [ "sheet_metal_small", 8]
       ],
       [
         [ "nano_mag_empty", 1]

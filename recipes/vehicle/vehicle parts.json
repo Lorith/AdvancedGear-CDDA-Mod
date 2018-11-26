@@ -21,6 +21,122 @@
     ]
   },{
     "type" : "recipe",
+    "result": "nano_turret_shredder",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":2,"amount":1},
+      {"id":"NANOTECH","level":2,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nano_shredder", 1]
+      ],
+      [
+        [ "nano_mag_empty", 3]
+      ],
+      [
+        [ "hose", 3]
+      ],
+      [
+        [ "xl_nanite_ai", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nano_turret_pistol",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":2,"amount":1},
+      {"id":"NANOTECH","level":2,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nano_pistol", 1]
+      ],
+      [
+        [ "nano_mag_empty", 3]
+      ],
+      [
+        [ "hose", 3]
+      ],
+      [
+        [ "xl_nanite_ai", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nano_turret_rifle",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":2,"amount":1},
+      {"id":"NANOTECH","level":2,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nano_rifle", 1]
+      ],
+      [
+        [ "nano_mag_empty", 3]
+      ],
+      [
+        [ "hose", 3]
+      ],
+      [
+        [ "xl_nanite_ai", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
+    "result": "nano_turret_smg",
+    "category": "CC_NANO",
+    "subcategory": "CSC_NANO_VEHICLE",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": 1000,
+    "reversible": true,
+    "book_learn": [ [ "nanite_core_2", 1 ], [ "nanite_core_3", 1 ], [ "nanite_core_4", 1 ] ],
+    "flags": [ "BLIND_EASY" ],
+    "qualities": [
+      {"id":"NANO_PRO","level":2,"amount":1},
+      {"id":"NANOTECH","level":2,"amount":1}
+    ],
+    "components": [
+      [
+        [ "nano_smg", 1]
+      ],
+      [
+        [ "nano_mag_empty", 3]
+      ],
+      [
+        [ "hose", 3]
+      ],
+      [
+        [ "xl_nanite_ai", 1]
+      ]
+    ]
+  },{
+    "type" : "recipe",
     "result": "nano_frame",
     "category": "CC_NANO",
     "subcategory": "CSC_NANO_VEHICLE",

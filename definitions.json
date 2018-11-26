@@ -16,7 +16,7 @@
   },{
     "type" : "material",
     "ident" : "nanite",
-    "name" : "Nanotech",
+    "name" : "nanotech",
     "density": 600,
     "bash_resist" : 28,
     "cut_resist" : 40,
@@ -42,25 +42,30 @@
   },{
       "type" : "tool_quality",
       "id" : "NANOTECH",
-      "name" : "Nanotech"
+      "name" : "nanotech"
   },{
       "type" : "tool_quality",
       "id" : "NANO_FAB",
-      "name" : "Nanite Fabrication"
+      "name" : "nanite fabrication"
   },{
       "type" : "tool_quality",
       "id" : "NANO_PRO",
-      "name" : "Nanite Programming"
+      "name" : "nanite programming"
   },{
       "type" : "ammunition_type",
       "id" : "3d_resin",
-      "name" : "Fabrication Feedstock",
+      "name" : "fabrication feedstock",
       "default" : "3d_resin"
   },{
     "type" : "ammunition_type",
     "id" : "nanite",
-    "name" : "Nanites",
+    "name" : "nanites",
     "default" : "nanite_cluster"
+  },{
+    "type" : "ammunition_type",
+    "id" : "metal_nanopowder",
+    "name" : "metal nanopowder",
+    "default" : "metal_nanopowder"
   },{
     "type" : "ammunition_type",
     "id" : "nanite_ammo",
