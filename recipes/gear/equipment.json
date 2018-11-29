@@ -12,7 +12,7 @@
     "flags": [ "BLIND_EASY" ],
     "qualities": [
       {"id":"NANO_PRO","level":3,"amount":1},
-      {"id":"NANOTECH","level":4,"amount":1}
+      {"id":"NANOTECH","level":3,"amount":1}
     ],
     "components": [
       [
@@ -65,6 +65,16 @@
     "qualities": [
       {"id":"NANOTECH","level":1,"amount":1}
     ],
+    "tools": [
+      [
+        [ "control_laptop", 25 ],
+        [ "programming_laptop", 25 ],
+        [ "nano_programmer_1", -1 ],
+        [ "nano_programmer_2", -1 ],
+        [ "nanofactory_3", -1 ],
+        [ "nanofactory_4", -1 ]
+      ]
+    ],
     "components": [
       [
         [ "nanite_cluster", 50]
@@ -83,6 +93,16 @@
     "flags": [ "BLIND_EASY" ],
     "qualities": [
       {"id":"NANOTECH","level":1,"amount":1}
+    ],
+    "tools": [
+      [
+        [ "control_laptop", 25 ],
+        [ "programming_laptop", 25 ],
+        [ "nano_programmer_1", -1 ],
+        [ "nano_programmer_2", -1 ],
+        [ "nanofactory_3", -1 ],
+        [ "nanofactory_4", -1 ]
+      ]
     ],
     "components": [
       [
