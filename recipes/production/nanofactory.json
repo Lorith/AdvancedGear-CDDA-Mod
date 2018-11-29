@@ -68,7 +68,8 @@
         [ "scrap_copper", 5],
         [ "copper", 500],
         [ "e_scrap", 72],
-        [ "cu_pipe", 3]
+        [ "cu_pipe", 3],
+        [ "pot_copper", 1]
       ]
     ]
   },{
@@ -161,7 +162,8 @@
         [ "scrap_copper", 5],
         [ "copper", 500],
         [ "e_scrap", 72],
-        [ "cu_pipe", 3]
+        [ "cu_pipe", 3],
+        [ "pot_copper", 1]
       ]
     ]
   },{
