@@ -160,7 +160,7 @@
     "size" : 2500000,
     "item" : "nano_container",
     "location" : "fuel_source",
-    "flags" : ["FUEL_TANK", "FOLDABLE"],
+    "flags" : ["FLUIDTANK", "FOLDABLE"],
     "breaks_into" : [
         {"item": "nano_container", "min": 1, "max": 1}
     ]
