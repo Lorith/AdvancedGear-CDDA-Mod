@@ -14,6 +14,13 @@
       "CSC_NANO_OTHER"
     ]
   },{
+    "type": "MONSTER_FACTION",
+    "name": "nanotech_guards",
+    "neutral": [ "science" ]
+  },{
+    "type": "SPECIES",
+    "id": "NANOTECH"
+  },{
     "type" : "material",
     "ident" : "nanite",
     "name" : "nanotech",

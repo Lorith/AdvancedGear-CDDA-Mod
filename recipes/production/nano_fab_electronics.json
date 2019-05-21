@@ -61,33 +61,6 @@
     ]
   },{
     "type" : "recipe",
-    "result": "battery_compartment",
-    "id_suffix": "_nanoprint_1",
-    "category": "CC_NANO",
-    "subcategory": "CSC_NANO_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "time": 140,
-    "reversible": false,
-    "book_learn": [ [ "nanite_guide", 1 ] ],
-    "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_FAB","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "3d_resin", 8]
-      ],
-      [
-        [ "3d_resin_metal", 4]
-      ],
-      [
-        [ "3d_resin_electronic", 2]
-      ]
-    ]
-  },{
-    "type" : "recipe",
     "result": "e_scrap",
     "id_suffix": "_nanoprint_1",
     "category": "CC_NANO",
@@ -504,30 +477,6 @@
       ],
       [
         [ "3d_resin", 1]
-      ]
-    ]
-  },{
-    "type" : "recipe",
-    "result": "lightstrip_dead",
-    "id_suffix": "_nanoprint_1",
-    "category": "CC_NANO",
-    "subcategory": "CSC_NANO_MATERIALS",
-    "skill_used": "fabrication",
-    "difficulty": 0,
-    "time": 30,
-    "reversible": false,
-    "book_learn": [ [ "nanite_guide", 1 ] ],
-    "flags": [ "BLIND_EASY" ],
-    "qualities": [
-      {"id":"NANO_FAB","level":1,"amount":1},
-      {"id":"NANOTECH","level":1,"amount":1}
-    ],
-    "components": [
-      [
-        [ "3d_resin_electronic", 2]
-      ],
-      [
-        [ "3d_resin_metal", 1]
       ]
     ]
   }

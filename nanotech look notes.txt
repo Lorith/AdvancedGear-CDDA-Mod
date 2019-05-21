@@ -34,7 +34,7 @@ nanite_guide (silvery metal book with plastic around the edges)
 bio_nanite_spawning + bio_nanite_spawned (metal tank with meat slurry inside, both look about the same)
 nanite_cluster, xl_nanite_cluster, xl_nanite_ai are all just blobs of dormant nanites, roughly the same, though xl versions can be bigger if desired
 bio_nanites, xl_bio_nanites - meat paste, basically
-nanite_sample_str, nanite_sample_dex, nanite_sample_int, nanite_sample_per, nanite_sample_adv - don't exist yet, small blob similar in size to cig butt or joint roach, can all use same tile
+nanoturret_shredder (and pistol, rifle, smg) - same as vehicle part nano_tech_shredder etc, hacky solution to code issue
 
 
 vehicle parts:
@@ -58,3 +58,8 @@ nanotech_frame - use same tiles as normal frames
 nanotech_frame2 - silvery version of frame, much thinner than normal ones, no item
 nanoboard - silvery version of normal boards, open version has a hole with a rolled up section around it, no item
 nanohalfboard - silvery version of normal quarterpanel, open version has a hole with a rolled up section around it, no item
+nano_boat - simple silvery boat hull, if boat hulls show up ingame
+
+
+Not present atm, but will be in future:
+nanite_sample_str, nanite_sample_dex, nanite_sample_int, nanite_sample_per, nanite_sample_adv - don't exist yet, small blob similar in size to cig butt or joint roach, can all use same tile

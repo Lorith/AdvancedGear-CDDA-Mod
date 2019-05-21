@@ -23,6 +23,18 @@
     "copy-from": "nanovp",
     "folded_volume": 8
   },{
+    "id": "nano_boat",
+    "type": "vehicle_part",
+    "name": "nanotech boat coating",
+    "copy-from": "nanovp_fold",
+    "item": "xl_nanite_cluster",
+    "description": "An outer coating of nanites that work together to seal out water while also providing another layer of protection.",
+    "location" : "under",
+    "looks_like": "metal_boat_hull",
+    "symbol": "H",
+    "broken_symbol": "#",
+    "flags" : ["FLOATS", "FOLDABLE"]
+  },{
     "abstract": "nanovp_turret",
     "type": "vehicle_part",
     "name": "nanotech vehicle turret",
@@ -66,11 +78,13 @@
     "description": "A nanotech aisle, capable of assisting with lifting nearby objects.",
     "item": "xl_nanite_cluster",
     "location": "center",
-    "flags": [ "AISLE", "BOARDABLE" ],
+    "size": 200,
+    "flags": [ "AISLE", "BOARDABLE", "FLAT_SURF", "WORKBENCH", "CARGO", "COVERED" ],
     "qualities": [ [ "LIFT", 40 ] ],
     "breaks_into" : [
       {"item": "xl_nanite_cluster", "min": 1, "max": 1}
-    ]
+    ],
+    "workbench": { "multiplier": 2.5, "mass": 500000, "volume": "50L" }
   },{
     "type": "vehicle_part",
     "id": "nano_roof",
@@ -81,7 +95,7 @@
     "description": "A nanotech roof that is capable of interfacing with a turret.",
     "item": "xl_nanite_cluster",
     "location": "roof",
-    "flags": [ "ROOF", "TURRET_MOUNT" ],
+    "flags": [ "ROOF", "TURRET_MOUNT", "FLAT_SURF" ],
     "breaks_into" : [
       {"item": "xl_nanite_cluster", "min": 1, "max": 1}
     ]
@@ -343,7 +357,7 @@
     "copy-from": "engine_electric_large",
     "type": "vehicle_part",
     "name": "nanotech anima",
-    "proportional": { "energy_consumption": 0.25, "power": 3.0 },
+    "proportional": { "energy_consumption": 0.25, "power": 9 },
     "item": "xl_nanite_ai",
     "difficulty": 0,
     "durability": 5000,
@@ -369,7 +383,6 @@
     "name": "nanotech crawler",
     "copy-from": "nanovp_fold",
     "item": "nano_crawler",
-    "location": "under",
     "symbol": "|",
     "broken_symbol": "x",
     "color": "dark_gray",
@@ -381,6 +394,9 @@
     "breaks_into": [
       { "item": "nano_crawler", "count": [ 1, 1 ] }
     ],
+    "rolling_resistance": 1.25,
+    "wheel_type": "off-road",
+    "contact_area": 3500,
     "flags": [ "WHEEL", "MULTISQUARE", "TRACKED", "NO_JACK", "VARIABLE_SIZE", "FOLDABLE", "STABLE", "SELF_JACK" ]
   },{
     "type": "vehicle_part",

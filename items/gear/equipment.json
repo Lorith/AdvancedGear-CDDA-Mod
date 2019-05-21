@@ -40,7 +40,7 @@
     "encumbrance": 28,
     "material_thickness": 4,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN" ],
+    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "TRADER_AVOID" ],
     "use_action": {
       "type": "transform",
       "target": "nano_shield_active",
@@ -67,7 +67,7 @@
     "encumbrance": 15,
     "material_thickness": 4,
     "techniques": [ "WBLOCK_3" ],
-    "flags": [ "OVERSIZE", "BELTED", "BLOCK_WHILE_WORN" ],
+    "flags": [ "OVERSIZE", "BELTED", "BLOCK_WHILE_WORN", "TRADER_AVOID" ],
     "use_action": {
       "type": "transform",
       "target": "nano_shield",
