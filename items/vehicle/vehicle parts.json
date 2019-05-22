@@ -344,7 +344,7 @@
     "symbol": "O",
     "color": "yellow",
     "broken_color": "red",
-    "epower": 15000,
+    "epower": 45000,
     "size": 100,
     "description": "A mass of nanites and power cells optimized for generating power.",
     "damage_modifier": 50,
@@ -413,7 +413,7 @@
     "epower": -500,
     "difficulty": 3,
     "location": "center",
-    "flags": [ "CONTROLS", "FOLDABLE", "BED", "SEAT", "BOARDABLE", "BELTABLE", "CTRL_ELECTRONIC", "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER" ],
+    "flags": [ "REMOTE_CONTROLS", "CONTROLS", "FOLDABLE", "BED", "SEAT", "BOARDABLE", "BELTABLE", "CTRL_ELECTRONIC", "VISION", "CAMERA", "CAMERA_CONTROL", "ENABLED_DRAINS_EPOWER" ],
     "breaks_into": [
       { "item": "xl_nanite_ai", "count": [ 1, 1 ] }
     ]

@@ -321,6 +321,7 @@
     "bashing": 30,
     "material": [ "nanite" ],
     "flags": ["UNBREAKABLE_MELEE", "NONCONDUCTIVE", "TRADER_AVOID"],
+    "qualities": [ [ "SELF_JACK", 40 ] ],
     "symbol": "]",
     "color": "white",
     "diameter": 60,
