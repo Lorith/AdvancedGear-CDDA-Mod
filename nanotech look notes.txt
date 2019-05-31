@@ -56,9 +56,20 @@ nano_turret_shredder (and pistol, rifle, smg) - copy of weapon attached to a blo
 nano_fridge + nano_freezer - box/tub shape, no item
 nanotech_frame - use same tiles as normal frames
 nanotech_frame2 - silvery version of frame, much thinner than normal ones, no item
-nanoboard - silvery version of normal boards, open version has a hole with a rolled up section around it, no item
-nanohalfboard - silvery version of normal quarterpanel, open version has a hole with a rolled up section around it, no item
+nanoboard - silvery version of normal boards, no item
+nanohalfboard - silvery version of normal quarterpanel, no item
 nano_boat - simple silvery boat hull, if boat hulls show up ingame
+nano_door - silvery version of a door, no item
+nano_door_opaque - silvery version of opaque door or board works, or board with circular door, open version has a hole with a rolled up section around it, no item
+nt_crafter - looks like nt_storage but with greenish glow on ends of tentacles, uses mini-shoggoth as item
+
+
+terrain:
+t_nano_floor - silvery square, smooth design
+t_nano_wall - silvery version of wall
+t_nano_door_c - looks similar to the wall, but with a circular door
+t_nano_door_o - as above, but open circular portion
+t_nano_roof - same as floor
 
 
 Not present atm, but will be in future:

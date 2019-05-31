@@ -259,7 +259,7 @@
     "color": "light_gray",
     "name": "nanotech liquid compressor",
     "category": "other",
-    "description": "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh.",
+    "description": "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature.",
     "price": 240000,
     "weight": 2957,
     "volume": 16,
@@ -277,6 +277,7 @@
     "flags": ["RIGID", "SEALS", "WATERTIGHT", "NONCONDUCTIVE", "TRADER_AVOID" ],
     "seals": true,
     "preserves": true,
-    "watertight": true
+    "watertight": true,
+    "insulation": 50
   }
 ]
