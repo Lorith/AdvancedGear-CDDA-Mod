@@ -23,7 +23,7 @@
   },{
     "abstract": "nanovp_fold",
     "type": "vehicle_part",
-    "name": "nanotech vehicle part foldable",
+    "name": "nanotech vehicle part (foldable)",
     "description": "Seeing this is a bug - nanovp_fold",
     "copy-from": "nanovp",
     "folded_volume": 8
@@ -108,7 +108,7 @@
     "id": "nano_turret_smg",
     "copy-from": "nanovp_turret",
     "type": "vehicle_part",
-    "name": "nanotech smg turret",
+    "name": "nanotech SMG turret",
     "description": "A nanotech smg adapted for vehicular usage.",
     "breaks_into" : [
       {"item": "nano_turret_smg", "min": 1, "max": 1}
@@ -255,7 +255,7 @@
   },{
     "type" : "vehicle_part",
     "id" : "nanofactory_vehicle_1",
-    "name" : "installed nanofactory v1",
+    "name" : "installed nanofactory MK I",
     "copy-from": "nanovp",
     "symbol" : "#",
     "color" : "light_green",
@@ -297,7 +297,7 @@
   },{
     "type" : "vehicle_part",
     "id" : "nanofactory_vehicle_2",
-    "name" : "installed nanofactory v2",
+    "name" : "installed nanofactory MK II",
     "copy-from": "nanovp",
     "symbol" : "#",
     "color" : "light_green",
