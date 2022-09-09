@@ -1,0 +1,1704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: None\n"
+"POT-Creation-Date: 2022-09-09 11:17+0300\n"
+"PO-Revision-Date: 2022-09-09 11:17+0300\n"
+"Last-Translator: None\n"
+"Language-Team: None\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. ~ Crafting recipes category name
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "NANO"
+msgstr ""
+
+#. ~ Crafting recipes subcategory "all"
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "ALL"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "AMMO"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "WIELD"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "WEAR"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "TOOLS"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "MATERIALS"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "NANITES"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "VEHICLE"
+msgstr ""
+
+#. ~ Crafting recipes subcategory of "NANO" cat.
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "OTHER"
+msgstr ""
+
+#. ~ Name of material
+#. ~ Name of tool quality "NANOTECH"
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "nanotech"
+msgstr ""
+
+#. ~ Bash damage verb of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "compressed"
+msgstr ""
+
+#. ~ Cut damage verb of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "gouged"
+msgstr ""
+
+#. ~ Damage adjective of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+#, c-format
+msgid "80% integrity"
+msgstr ""
+
+#. ~ Damage adjective of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+#, c-format
+msgid "60% integrity"
+msgstr ""
+
+#. ~ Damage adjective of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+#, c-format
+msgid "40% integrity"
+msgstr ""
+
+#. ~ Damage adjective of material nanotech
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+#, c-format
+msgid "20% integrity"
+msgstr ""
+
+#. ~ Name of tool quality "NANO_FAB"
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "nanite fabrication"
+msgstr ""
+
+#. ~ Name of tool quality "NANO_PRO"
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "nanite programming"
+msgstr ""
+
+#. ~ Name of an ammunition type
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "fabrication feedstock"
+msgstr ""
+
+#. ~ Name of an ammunition type
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "nanites"
+msgid_plural "nanitess"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Name of an ammunition type
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "metal nanopowder"
+msgid_plural "metal nanopowders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Name of an ammunition type
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "nanotech ammo"
+msgstr ""
+
+#. ~ Name of an ammunition type
+#: mods/AdvancedGear-CDDA-Mod-master/definitions.json
+msgid "nanotech deathcloud"
+msgstr ""
+
+#. ~ Name of material
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "Superalloy"
+msgstr ""
+
+#. ~ Bash damage verb of material Superalloy
+#. ~ Damage adjective of material Superalloy
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "dented"
+msgstr ""
+
+#. ~ Cut damage verb of material Superalloy
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "scratched"
+msgstr ""
+
+#. ~ Damage adjective of material Superalloy
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "marked"
+msgstr ""
+
+#. ~ Damage adjective of material Superalloy
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "smashed"
+msgstr ""
+
+#. ~ Damage adjective of material Superalloy
+#: mods/AdvancedGear-CDDA-Mod-master/material_overrides.json
+msgid "shattered"
+msgstr ""
+
+#. ~ MOD name
+#: mods/AdvancedGear-CDDA-Mod-master/modinfo.json
+msgid "Advanced Gear"
+msgstr ""
+
+#. ~ Description of MOD "Advanced Gear"
+#: mods/AdvancedGear-CDDA-Mod-master/modinfo.json
+msgid "Extremely high-end items based around nanotech and 3D printing, mutations to be added later."
+msgstr ""
+
+#. ~ Profession name for male
+#: mods/AdvancedGear-CDDA-Mod-master/professions.json
+msgctxt "profession_male"
+msgid "Nanotech Agent"
+msgstr ""
+
+#. ~ Description of profession "Nanotech Agent" for male
+#: mods/AdvancedGear-CDDA-Mod-master/professions.json
+msgctxt "prof_desc_male"
+msgid "The nanotech project ALMOST finished in time to try to stop things.  But almost doesn't quite cut it these days.  You were tasked with keeping the prototypes safe, and trying to continue the research."
+msgstr ""
+
+#. ~ Profession name for female
+#: mods/AdvancedGear-CDDA-Mod-master/professions.json
+msgctxt "profession_female"
+msgid "Nanotech Agent"
+msgstr ""
+
+#. ~ Description of profession "Nanotech Agent" for female
+#: mods/AdvancedGear-CDDA-Mod-master/professions.json
+msgctxt "prof_desc_female"
+msgid "The nanotech project ALMOST finished in time to try to stop things.  But almost doesn't quite cut it these days.  You were tasked with keeping the prototypes safe, and trying to continue the research."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech gear"
+msgid_plural "nanotech gears"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech gear"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "You shouldn't see this - nanogear"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech shield"
+msgid_plural "nanotech shields"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech shield"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A large shield composed of a cluster of nanites, currently in passive mode, you can block attacks with it.  When not in use, it compresses itself into the handle."
+msgstr ""
+
+#. ~ "msg" action message of item "nanotech shield"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Shield switched to active mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech shield (active)"
+msgid_plural "nanotech shield (active)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech shield (active)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A large shield composed of a cluster of nanites, currently in active mode, it will automatically attempt to block attacks for you, allowing you to make use of your hand.  When not in use, it compresses itself into the handle."
+msgstr ""
+
+#. ~ "msg" action message of item "nanotech shield (active)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Shield switched to passive mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech 'mini-shoggoth' storage"
+msgid_plural "nanotech 'mini-shoggoth' storages"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech 'mini-shoggoth' storage"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible, including reaching down and forming 'legs' to support itself if needed."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech holster"
+msgid_plural "nanotech holsters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech holster"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A small blob of nanites with an AI, it actively branches out pseudopods to grasp guns held nearby it, and put them into the user's hands automatically as needed."
+msgstr ""
+
+#. ~ "holster_msg" action message of item "nanotech holster"
+#. ~ "holster_msg" action message of item "nanotech sheath"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+#, c-format
+msgid "You store your %s"
+msgstr ""
+
+#. ~ "holster_prompt" action message of item "nanotech holster"
+#. ~ "holster_prompt" action message of item "nanotech sheath"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Store weapon"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech sheath"
+msgid_plural "nanotech sheaths"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech sheath"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A small blob of nanites with an AI, it actively branches out pseudopods to grasp blades held nearby it, and put them into the user's hands automatically as needed."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech magazine holder"
+msgid_plural "nanotech magazine holders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech magazine holder"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A small blob of nanites with an AI, it stores magazines and assists in loading them as needed."
+msgstr ""
+
+#. ~ "holster_msg" action message of item "nanotech magazine holder"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+#, c-format
+msgid "You store your %s."
+msgstr ""
+
+#. ~ "holster_prompt" action message of item "nanotech magazine holder"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Store ammo"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit"
+msgid_plural "nanosuits"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanosuit"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A cluster of carefully programmed nanites designed to fully cover the body and defend against external threats.  Can be activated to produce heat."
+msgstr ""
+
+#. ~ "menu_text" action message of item "nanosuit"
+#. ~ "menu_text" action message of item "nanosuit (heat+)"
+#. ~ "menu_text" action message of item "nanosuit (heat++)"
+#. ~ "menu_text" action message of item "nanosuit (heat+++)"
+#. ~ "menu_text" action message of item "nanosuit (heat++++)"
+#. ~ "menu_text" action message of item "nanosuit (heat+++++)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Cycle heating"
+msgstr ""
+
+#. ~ "msg" action message of item "nanosuit"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Enabling nanosuit's heating mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit (heat+)"
+msgid_plural "nanosuit (heat+)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanosuit (heat+)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A cluster of carefully programmed nanites designed to fully cover the body and defend against external threats.  Currently heating itself."
+msgstr ""
+
+#. ~ "msg" action message of item "nanosuit (heat+)"
+#. ~ "msg" action message of item "nanosuit (heat++)"
+#. ~ "msg" action message of item "nanosuit (heat+++)"
+#. ~ "msg" action message of item "nanosuit (heat++++)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Increasing nanosuit's heating mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit (heat++)"
+msgid_plural "nanosuit (heat++)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit (heat+++)"
+msgid_plural "nanosuit (heat+++)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit (heat++++)"
+msgid_plural "nanosuit (heat++++)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanosuit (heat+++++)"
+msgid_plural "nanosuit (heat+++++)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ "msg" action message of item "nanosuit (heat+++++)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "Disabled nanosuit's heating mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "nanotech liquid compressor"
+msgid_plural "nanotech liquid compressors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech liquid compressor"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/equipment.json
+msgid "A heavily compressed liquid storage device, it is also capable of keeping its contents fresh and maintaining their temperature."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "nanite multitool (small)"
+msgid_plural "nanite multitool (small)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite multitool (small)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "Nanite control unit that can mimic many tools, though some require different configurations.  Currently in default form, allowing access to numerous small tools."
+msgstr ""
+
+#. ~ "menu_text" action message of item "nanite multitool (small)"
+#. ~ "menu_text" action message of item "nanite multitool (large)"
+#. ~ "menu_text" action message of item "nanite multitool (laser welder)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "Switch tool mode"
+msgstr ""
+
+#. ~ "msg" action message of item "nanite multitool (small)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "You switch your multitool to large tools mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "nanite multitool (large)"
+msgid_plural "nanite multitool (large)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite multitool (large)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "Nanite control unit that can mimic many tools, though some require different configurations.  Currently expanded into a larger form for bulkier tools."
+msgstr ""
+
+#. ~ "msg" action message of item "nanite multitool (large)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "You switch your multitool to laser welder mode."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "nanite multitool (laser welder)"
+msgid_plural "nanite multitool (laser welder)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite multitool (laser welder)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "Nanite control unit that can mimic many tools, though some require different configurations.  Currently configured as a laser welder."
+msgstr ""
+
+#. ~ "msg" action message of item "nanite multitool (laser welder)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/multitool.json
+msgid "You switch your multitool to small tools mode."
+msgstr ""
+
+#. ~ Description of "metal nanopowder"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "Incredibly finely powdered metal, it is useless for anything except use in specialized nanotech turrets."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "monomolecular dart feedstock"
+msgid_plural "monomolecular dart feedstocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "monomolecular dart feedstock"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "Batch of material with instructions to produce bursts of darts."
+msgstr ""
+
+#. ~ Intended to be used in small bursts
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "monomolecular blade feedstock"
+msgid_plural "monomolecular blade feedstocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Intended to be used in small bursts
+#. ~ Description of "monomolecular blade feedstock"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "Batch of material with instructions to produce bursts of blades."
+msgstr ""
+
+#. ~ Intended to be used in individual shots
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "monomolecular wire feedstock"
+msgid_plural "monomolecular wire feedstocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Intended to be used in individual shots
+#. ~ Description of "monomolecular wire feedstock"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "Batch of material with instructions to produce clouds of twisting wire.  WARNING: DEADLY TO USER!"
+msgstr ""
+
+#. ~ Intended to be used in individual shots
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "xl monomolecular wire feedstock"
+msgid_plural "xl monomolecular wire feedstocks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Intended to be used in individual shots
+#. ~ Description of "xl monomolecular wire feedstock"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_ammo.json
+msgid "Large block of material for producing large clouds of monomolecular wire.  WARNING: DEADLY TO USER!"
+msgstr ""
+
+#. ~ Magazine name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "nanotech ammo core (wire)"
+msgid_plural "nanotech ammo core (wire)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of magazine "nanotech ammo core (wire)"
+#. ~ Description of magazine "nanotech ammo core (dart)"
+#. ~ Description of magazine "nanotech ammo core (blade)"
+#. ~ Description of magazine "nanotech ammo core (deathcloud)"
+#. ~ Description of magazine "nanotech ammo core"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "An automated ammo production unit designed to process feedstock into usable ammo as needed, complete with integrated power source.  Unfortunately, it needs to be manually reset when emptied, and cannot be refilled by hand."
+msgstr ""
+
+#. ~ Magazine name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "nanotech ammo core (dart)"
+msgid_plural "nanotech ammo core (dart)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Magazine name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "nanotech ammo core (blade)"
+msgid_plural "nanotech ammo core (blade)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Magazine name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "nanotech ammo core (deathcloud)"
+msgid_plural "nanotech ammo core (deathcloud)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Magazine name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/nanotech_mags.json
+msgid "nanotech ammo core"
+msgid_plural "nanotech ammo cores"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "nanotech blade"
+msgid_plural "nanotech blades"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech blade"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "An incredibly sharp blade of active nanites with a small handle.  Compresses itself into the handle when not in use."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "nanotech dagger"
+msgid_plural "nanotech daggers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech dagger"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "An incredibly sharp blade of active nanites with a small handle.  Compresses itself into the handle when not in use.  In addition to the typical blade, it can project blades around your fingers to be used as a claw or punching dagger."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "nanotech spear"
+msgid_plural "nanotech spears"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech spear"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "An incredibly sharp spike of active nanites on a long handle, it contains small but powerful boosters for sweeping strikes as a staff as well.  Compresses itself into a small tube when not in use."
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "nanotech gun"
+msgid_plural "nanotech guns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "You shouldn't see this."
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "accessories"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "barrel"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "grip"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "mechanism"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "muzzle"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "rail"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "sights"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "stock"
+msgstr ""
+
+#. ~ Valid mod location of gun "nanotech gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "underbarrel"
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech shredder"
+msgid_plural "nanotech shredders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech shredder"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "Nanotech shotgun, blasts out large clouds of different configurations of monomolecular ammo based on loaded ammo core."
+msgstr ""
+
+#. ~ Firing mode of gun "nanotech shredder"
+#. ~ Firing mode of gun "nanotech launcher"
+#. ~ Firing mode of gun "nanotech shredder turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "blast"
+msgstr ""
+
+#. ~ Firing mode of gun "nanotech shredder"
+#. ~ Firing mode of gun "nanotech pistol"
+#. ~ Firing mode of gun "nanotech rifle"
+#. ~ Firing mode of gun "nanotech smg"
+#. ~ Firing mode of gun "nanotech shredder turret (v)"
+#. ~ Firing mode of gun "nanotech pistol turret (v)"
+#. ~ Firing mode of gun "nanotech rifle turret (v)"
+#. ~ Firing mode of gun "nanotech smg turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "auto"
+msgstr ""
+
+#. ~ Skill associated with gun "nanotech shredder"
+#. ~ Skill associated with gun "nanotech shredder turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgctxt "gun_type_type"
+msgid "shotgun"
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech pistol"
+msgid_plural "nanotech pistols"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech pistol"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "Nanotech pistol, fires bursts of different configurations of monomolecular ammo based on loaded ammo core."
+msgstr ""
+
+#. ~ Firing mode of gun "nanotech pistol"
+#. ~ Firing mode of gun "nanotech rifle"
+#. ~ Firing mode of gun "nanotech launcher"
+#. ~ Firing mode of gun "nanotech pistol turret (v)"
+#. ~ Firing mode of gun "nanotech rifle turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "semi-auto"
+msgstr ""
+
+#. ~ Firing mode of gun "nanotech pistol"
+#. ~ Firing mode of gun "nanotech rifle"
+#. ~ Firing mode of gun "nanotech smg"
+#. ~ Firing mode of gun "nanotech pistol turret (v)"
+#. ~ Firing mode of gun "nanotech rifle turret (v)"
+#. ~ Firing mode of gun "nanotech smg turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "burst"
+msgstr ""
+
+#. ~ Skill associated with gun "nanotech pistol"
+#. ~ Skill associated with gun "nanotech pistol turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgctxt "gun_type_type"
+msgid "pistol"
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech rifle"
+msgid_plural "nanotech rifles"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech rifle"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "Nanotech rifle, fires large bursts of different configurations of monomolecular ammo based on loaded ammo core."
+msgstr ""
+
+#. ~ Skill associated with gun "nanotech rifle"
+#. ~ Skill associated with gun "nanotech rifle turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgctxt "gun_type_type"
+msgid "rifle"
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech smg"
+msgid_plural "nanotech smgs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech smg"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "Nanotech smg, fires a storm of different configurations of monomolecular ammo based on loaded ammo core."
+msgstr ""
+
+#. ~ Firing mode of gun "nanotech smg"
+#. ~ Firing mode of gun "nanotech smg turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "maximum"
+msgstr ""
+
+#. ~ Skill associated with gun "nanotech smg"
+#. ~ Skill associated with gun "nanotech smg turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgctxt "gun_type_type"
+msgid "smg"
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "nanotech launcher"
+msgid_plural "nanotech launchers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech launcher"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgid "Nanotech launcher, fires huge masses of monomolecular wire that shreds anything that isn't heavily protected."
+msgstr ""
+
+#. ~ Skill associated with gun "nanotech launcher"
+#: mods/AdvancedGear-CDDA-Mod-master/items/gear/weapons.json
+msgctxt "gun_type_type"
+msgid "launcher"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "nanite core MK I"
+msgid_plural "nanite core MK Is"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite core MK I"
+#. ~ Description of "nanite core MK II"
+#. ~ Description of "nanite core MK III"
+#. ~ Description of "nanite core MK IV"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "Contains data on how to work with nanites."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "nanite guide"
+msgid_plural "nanite guides"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite guide"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "Contains data on producing standard items from a nanofactory."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "nanite core MK II"
+msgid_plural "nanite core MK IIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "nanite core MK III"
+msgid_plural "nanite core MK IIIs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "nanite core MK IV"
+msgid_plural "nanite core MK IVs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "AI core (experimental)"
+msgid_plural "AI core (experimental)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "AI core (experimental)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "Experimental AI core, once used for high-end research tasks."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "AI core (blank)"
+msgid_plural "AI core (blank)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "AI core (blank)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/cores.json
+msgid "AI core, currently blank."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "nanite growth chamber (active)"
+msgid_plural "nanite growth chamber (active)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite growth chamber (active)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "A container full of materials and a small cluster of bio-compatible nanites programmed to replicate.  After they finish, they will enter an idle state and be ready to be removed."
+msgstr ""
+
+#. ~ "msg" action message of item "nanite growth chamber (active)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "The bio-compatible nanites gather into a cluster for easy removal."
+msgstr ""
+
+#. ~ "not_ready_msg" action message of item "nanite growth chamber (active)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "Spawning is not yet complete."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "nanite growth chamber (complete)"
+msgid_plural "nanite growth chamber (complete)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite growth chamber (complete)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "A container full of bio-compatible nanites that have entered an idle state and are ready to be removed. (Disassemble to recover)"
+msgstr ""
+
+#. ~ Description of "nanites"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "Batch of inactive nanites."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "bio-compatible nanites"
+msgid_plural "bio-compatible nanitess"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "bio-compatible nanites"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanites.json
+msgid "Batch of inactive bio-compatible nanites."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "programming laptop"
+msgid_plural "programming laptops"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "programming laptop"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "A repaired laptop usable for programming.  Requires external power source to charge."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "feedstock (plastic)"
+msgid_plural "feedstock (plastic)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "feedstock (plastic)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Coiled plastic feedstock for advanced fabrication."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "feedstock (metal)"
+msgid_plural "feedstock (metal)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "feedstock (metal)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Coiled metal stock for advanced fabrication."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "feedstock (electronic)"
+msgid_plural "feedstock (electronic)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "feedstock (electronic)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Coiled high-conductivity metal for advanced fabrication."
+msgstr ""
+
+#. ~ Name of an ammunition type
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "3D printer stock"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanofactory (3D printer)"
+msgid_plural "nanofactory (3D printer)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanofactory (3D printer)"
+#. ~ Description of "nanofactory"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Uses internal nanites to reassemble feedstock into products at high speed and efficiency."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "experimental nanite assembler"
+msgid_plural "experimental nanite assemblers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "experimental nanite assembler"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Low quality, bulky, slow, but highly secured nanite fabrication system.  Designed for safety, not quality, but with some hard work you may be able to salvage something of use, or maybe use it."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanotech ammo processor"
+msgid_plural "nanotech ammo processors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech ammo processor"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Uses internal nanites to pack feedstock into bricks in ammo cartridges, as well as program them for proper output.  Due to the highly limited products, it is more flexible and can take unprocessed raw materials as well."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanotech power cell"
+msgid_plural "nanotech power cells"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech power cell"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Plutonium processed into smaller chunks"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanite programmer (basic)"
+msgid_plural "nanite programmer (basic)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite programmer (basic)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "A small terminal that interfaces with nearby nanites to upload preconfigured programs to them.  It is also able to hack into robots using remote groups of nanites."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanofactory"
+msgid_plural "nanofactorys"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanite programmer"
+msgid_plural "nanite programmers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite programmer"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "A small terminal that interfaces with nearby nanites to upload preconfigured programs to them."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "nanite construction tool"
+msgid_plural "nanite construction tools"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanite construction tool"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Controls nanites to reassemble feedstock into products at high speed and efficiency, contains a minor AI to assist with programming."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "advanced nanite controller"
+msgid_plural "advanced nanite controllers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "advanced nanite controller"
+#: mods/AdvancedGear-CDDA-Mod-master/items/production/nanofactory.json
+msgid "Controls nanites to reassemble feedstock into products at high speed and efficiency, contains an advanced AI, and is capable of any nanofabrication currently developed."
+msgstr ""
+
+#. ~ Item name
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "nanotech hybrid frame"
+msgid_plural "nanotech hybrid frames"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech hybrid frame"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "A large frame made of steel and reinforced with nanites.  Useful for crafting."
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech hybrid frame"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "A heavy metal framework infused with nanites working to augment the durability.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "nanotech frame"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech frame"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "A large cluster of nanites actively forming a support network for other structures to attach to.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "nanotech board"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech board"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "A strong metal wall.  Keeps zombies outside the vehicle and prevents people from seeing through it."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "nanotech quarterpanel"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech quarterpanel"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/frames-n-boards.json
+msgid "A half-height strong metal wall.  Keeps zombies outside the vehicle but allows people to see over it."
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech turret gun"
+msgid_plural "nanotech turret guns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun "nanotech turret gun"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "You shouldn't see this. nanoturretgun"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech turret"
+msgid_plural "nanotech turrets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech turret"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "You shouldn't see this. nanoturret"
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech shredder turret (i)"
+msgid_plural "nanotech shredder turret (i)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech shredder turret (i)"
+#. ~ Description of gun "nanotech shredder turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Nanotech shotgun turret, blasts out large clouds of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed."
+msgstr ""
+
+#. ~ "menu_text" action message of item "nanotech shredder turret (i)"
+#. ~ "menu_text" action message of item "nanotech pistol turret (i)"
+#. ~ "menu_text" action message of item "nanotech rifle turret (i)"
+#. ~ "menu_text" action message of item "nanotech smg turret (i)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Switch to vehicle mode"
+msgstr ""
+
+#. ~ "msg" action message of item "nanotech shredder turret (i)"
+#. ~ "msg" action message of item "nanotech pistol turret (i)"
+#. ~ "msg" action message of item "nanotech rifle turret (i)"
+#. ~ "msg" action message of item "nanotech smg turret (i)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Turret state switched."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech pistol turret (i)"
+msgid_plural "nanotech pistol turret (i)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech pistol turret (i)"
+#. ~ Description of gun "nanotech pistol turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Nanotech pistol turret, fires bursts of of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech rifle turret (i)"
+msgid_plural "nanotech rifle turret (i)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech rifle turret (i)"
+#. ~ Description of gun "nanotech rifle turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Nanotech rifle turret, fires large bursts of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech smg turret (i)"
+msgid_plural "nanotech smg turret (i)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech smg turret (i)"
+#. ~ Description of gun "nanotech smg turret (v)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "Nanotech smg turret, fires a storm of monomolecular darts.  Each shot is 10x the projectiles as the unmounted version, leading to ability to hit at a longer distance and a bit more damage.  It feeds in powdered metal using a system similar to liquid transfer through the vehicle, then compresses it into ammo as needed."
+msgstr ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech shredder turret (v)"
+msgid_plural "nanotech shredder turret (v)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech pistol turret (v)"
+msgid_plural "nanotech pistol turret (v)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech rifle turret (v)"
+msgid_plural "nanotech rifle turret (v)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Name of a gun
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech smg turret (v)"
+msgid_plural "nanotech smg turret (v)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "xl nanite cluster"
+msgid_plural "xl nanite clusters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "xl nanite cluster"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "A very large blob of nanites that can be easily programmed into multiple different forms."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "xl nanite cluster(ai)"
+msgid_plural "xl nanite cluster(ai)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "xl nanite cluster(ai)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "A very large blob of nanites that can be easily programmed into multiple different complex forms due to the included AI."
+msgstr ""
+
+#. ~ Item name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json
+msgid "nanotech generator"
+msgid_plural "nanotech generators"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech generator"
+#. ~ Description of vehicle part "nanotech power generator"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A mass of nanites and power cells optimized for generating power."
+msgstr ""
+
+#. ~ Magazine name
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech storage array"
+msgid_plural "nanotech storage arrays"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of magazine "nanotech storage array"
+#. ~ Description of vehicle part "nanotech storage array"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A mass of nanites programmed to store vast amounts of power."
+msgstr ""
+
+#. ~ Item name
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech crawler"
+msgid_plural "nanotech crawlers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nanotech crawler"
+#. ~ Description of vehicle part "nanotech crawler"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/items.json mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A mass of nanites optimized for travel across any land-based surface while lifting a larger object."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech vehicle part"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech vehicle part"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Seeing this is a bug - nanovp"
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech vehicle part (foldable)"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech vehicle part (foldable)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Seeing this is a bug - nanovp_fold"
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech door"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech door"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A very durable barrier composed of nanites acting as a door, it also contains a fine mesh that acts as a window."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech iris"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech iris"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A highly durable iris composed of nanites, this blocks sight while also acting as a combination of door and armor."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech boat coating"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech boat coating"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "An outer coating of nanites that work together to seal out water while also providing another layer of protection."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech vehicle turret"
+msgstr ""
+
+#. ~ Vehicle part name
+#. ~ Monster name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech shredder turret"
+msgid_plural "nanotech shredder turrets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of vehicle part "nanotech shredder turret"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech shredder adapted for vehicular usage."
+msgstr ""
+
+#. ~ Vehicle part name
+#. ~ Monster name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech pistol turret"
+msgid_plural "nanotech pistol turrets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of vehicle part "nanotech pistol turret"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech pistol adapted for vehicular usage."
+msgstr ""
+
+#. ~ Vehicle part name
+#. ~ Monster name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech rifle turret"
+msgid_plural "nanotech rifle turrets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of vehicle part "nanotech rifle turret"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech rifle adapted for vehicular usage."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech SMG turret"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech SMG turret"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech smg adapted for vehicular usage."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech aisle"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech aisle"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech aisle, capable of assisting with lifting nearby objects."
+msgstr ""
+
+#. ~ Vehicle part name
+#. ~ Terrain name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "nanotech roof"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech roof"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A nanotech roof that is capable of interfacing with a turret."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech solar panel"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech solar panel"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large sheet of nanites arranged to capture sunlight and convert it to electrical energy."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech passive plating"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech passive plating"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Nanites formed into a self-reinforcing mesh designed to reduce incoming damage."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech active plating"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech active plating"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Nanites formed into a highly active mesh designed to shred anything they collide with."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech compression tank (2500L)"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech compression tank (2500L)"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Collection of nanites formed into a hollow sphere with a complex mechanism to compress and decompress liquid to extreme levels."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech 'shoggoth' storage node"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech 'shoggoth' storage node"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large blob of nanites with an AI, it actively branches out pseudopods to grasp items held near it and supports them as optimally as possible"
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech crafting node"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech crafting node"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large blob of nanites with an AI, it actively branches out pseudopods to assist with crafting efforts performed nearby.  Additionally, it will act as most tools upon command."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech fridge"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech fridge"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a cool temperature, leading to them being immobile and blocking passage."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech freezer"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech freezer"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Collection of nanites formed into a hollow container, a large portion of their power is devoted to maintaining a frozen temperature, leading to them being immobile and blocking passage."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "installed nanofactory MK I"
+msgstr ""
+
+#. ~ Description of vehicle part "installed nanofactory MK I"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large and bulky prototype nanofactory sitting on a frame somehow not functioning properly"
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "installed nanofactory MK II"
+msgstr ""
+
+#. ~ Description of vehicle part "installed nanofactory MK II"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large and bulky nanofactory sitting on a frame somehow not functioning properly."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech power generator"
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech anima"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech anima"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A mass of nanites programmed to locate mechanical power systems and interface with them to provide mechanical power."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech control pod"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech control pod"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A large blob of nanites you can enter, it acts as a combined control system, chair, and camera control system all in one."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech shock mesh"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech shock mesh"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "A series of straps attached to the seat, intended to fasten together after going over your shoulders and hips and between your legs."
+msgstr ""
+
+#. ~ Vehicle part name
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "nanotech sensor array"
+msgstr ""
+
+#. ~ Description of vehicle part "nanotech sensor array"
+#: mods/AdvancedGear-CDDA-Mod-master/items/vehicle/vehicle_parts.json
+msgid "Advanced nanotech sensor array with basic armor, can transmit video to a camera control system or a nanotech control pod."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "nanotech floor"
+msgstr ""
+
+#. ~ Description of terrain "nanotech floor"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "A perfectly smooth floor with matching roof composed of nanites, can easily withstand almost anything."
+msgstr ""
+
+#. ~ Bashing sound of terrain "nanotech floor"
+#. ~ Bashing sound of terrain "nanotech wall"
+#. ~ Bashing sound of terrain "sealed nanotech iris"
+#. ~ Bashing sound of terrain "open nanotech iris"
+#. ~ Bashing sound of terrain "nanotech roof"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "sssssssss!"
+msgstr ""
+
+#. ~ Bashing failed sound of terrain "nanotech floor"
+#. ~ Bashing failed sound of terrain "nanotech wall"
+#. ~ Bashing failed sound of terrain "sealed nanotech iris"
+#. ~ Bashing failed sound of terrain "open nanotech iris"
+#. ~ Bashing failed sound of terrain "nanotech roof"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "whump!"
+msgstr ""
+
+#. ~ Terrain name
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "nanotech wall"
+msgstr ""
+
+#. ~ Description of terrain "nanotech wall"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "An incredibly durable and perfectly uniform wall composed of nanites.  More than capable of supporting a roof, as well as keeping out most practically anything."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "sealed nanotech iris"
+msgstr ""
+
+#. ~ Description of terrain "sealed nanotech iris"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "A sealed iris composed of nanites, this door is capable of withstanding nearly anything."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "open nanotech iris"
+msgstr ""
+
+#. ~ Description of terrain "open nanotech iris"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "An opened iris composed of nanites, this door is capable of withstanding nearly anything."
+msgstr ""
+
+#. ~ Description of terrain "nanotech roof"
+#: mods/AdvancedGear-CDDA-Mod-master/mapstuff/terrain.json
+msgid "A perfectly smooth roof composed of nanites, can easily withstand almost anything."
+msgstr ""
+
+#. ~ Description of gun "nanotech pistol"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "You shouldn't see this. nano_turret_pistol_weapon"
+msgstr ""
+
+#. ~ Description of gun "nanotech shredder"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "You shouldn't see this. nano_turret_shredder_weapon"
+msgstr ""
+
+#. ~ Description of gun "nanotech rifle"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "You shouldn't see this. nano_turret_rifle_weapon"
+msgstr ""
+
+#. ~ Description of gun "nanotech smg"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "You shouldn't see this. nano_turret_smg_weapon"
+msgstr ""
+
+#. ~ Description of monster "nanotech pistol turret"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "A shimmering pool of liquid metal with a small barrel sticking out, this turret specializes in accuracy, though it lacks in raw power."
+msgstr ""
+
+#. ~ Description of monster "nanotech shredder turret"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "A shimmering pool of liquid metal with a wide barrel sticking out, this turret specializes in power, though it lacks in accuracy and range."
+msgstr ""
+
+#. ~ Description of monster "nanotech rifle turret"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "A shimmering pool of liquid metal with a long barrel sticking out, this turret specializes in accuracy, though it lacks in raw power."
+msgstr ""
+
+#. ~ Monster name
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "nanotech smg turret"
+msgid_plural "nanotech smg turrets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of monster "nanotech smg turret"
+#: mods/AdvancedGear-CDDA-Mod-master/monsters/turrets.json
+msgid "A shimmering pool of liquid metal with a short barrel sticking out, this turret specializes in speed, though it lacks in range and sustainability."
+msgstr ""
+
